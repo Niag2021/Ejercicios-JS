@@ -1,0 +1,17 @@
+/*
+   Has hecho una compra y sabes el precio del producto y su iva. Haz un script que te calcule el precio total que 
+   vas a pagar por tu compra. Te recuerdo que para calcular el total debes sumar al precio el resultado de 
+   multiplicasr precio por el iva y dividir por 100. 
+*/
+
+function precioFinal(){
+    let precioProducto= 200;
+    let iva=0.21;
+    
+    let resultadoFinal=200+21*200/100;
+    
+    return resultadoFinal;
+}
+
+let resultado=precioFinal();
+console.log(resultado);
